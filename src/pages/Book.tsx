@@ -5,7 +5,7 @@ import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
-const BOOKING_PASSWORD = "pawpatrol2026";
+const BOOKING_PASSWORD = "diamond";
 
 const Book = () => {
   const [authenticated, setAuthenticated] = useState(false);
