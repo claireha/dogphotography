@@ -47,7 +47,7 @@ const About = () => (
             <div className="pt-4 border-t border-border">
               <h3 className="font-display font-semibold text-foreground mb-3">Fun facts</h3>
               <ul className="space-y-2 text-muted-foreground">
-                <li>🐾 Proud pittie parent to <a href="https://www.instagram.com/bigbabydimey" target="_blank" rel="noopener noreferrer" className="underline text-primary hover:text-primary/80 transition-colors">@bigbabydimey</a></li>
+                <li>🐾 Proud pittie parent to <a href="https://www.instagram.com/clairelikesdogs" target="_blank" rel="noopener noreferrer" className="underline text-primary hover:text-primary/80 transition-colors">@clairelikesdogs</a></li>
                 <li>📸 Self-taught photographer (Fujifilm X100VI)</li>
                 <li>🏠 Based in central New Jersey</li>
                 <li>🦴 Always ready to meet new doggy friends</li>

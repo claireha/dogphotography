@@ -23,12 +23,12 @@ const steps = [
 ];
 
 const gallery = [
-  { img: gallery1, url: "https://www.instagram.com/bigbabydimey/p/DVEdM3rFXGn/" },
-  { img: gallery2, url: "https://www.instagram.com/bigbabydimey/p/DWKPV2HlYn8/" },
-  { img: gallery3, url: "https://www.instagram.com/bigbabydimey/p/DWMuS3blWWH/" },
-  { img: gallery4, url: "https://www.instagram.com/bigbabydimey/p/DNjMSt1JtwU/" },
-  { img: "https://scontent-lga3-2.cdninstagram.com/v/t51.82787-15/631462758_17975402159993827_2759700604794333652_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&_nc_cat=105&ig_cache_key=MzgzMTg2OTI3NTY3ODg2MzM4OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkyMC5zZHIuQzMifQ%3D%3D&_nc_ohc=jmWdNU24mb4Q7kNvwHYxwi9&_nc_oc=AdpIhJVAaBcdYq6fTzaDk8N-del-HmDdSQ8wdXikp3idRwbcXUB_fQHgpuqax85jMJ8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-lga3-2.cdninstagram.com&_nc_gid=yTrx18gjA1gyI_j2bobZyA&_nc_ss=7a32e&oh=00_AfykIdnTUuJgpMWsWUbF0f5j-ah6vS2-B-QP8c_NmjRtAg&oe=69C8DCD3", url: "https://www.instagram.com/bigbabydimey/p/DUtiZ6rEo8P/" },
-  { img: gallery6, url: "https://www.instagram.com/bigbabydimey/p/DUjGq51kibV/" },
+  { img: gallery1, url: "https://www.instagram.com/clairelikesdogs/p/DVEdM3rFXGn/" },
+  { img: gallery2, url: "https://www.instagram.com/clairelikesdogs/p/DWKPV2HlYn8/" },
+  { img: gallery3, url: "https://www.instagram.com/clairelikesdogs/p/DWMuS3blWWH/" },
+  { img: gallery4, url: "https://www.instagram.com/clairelikesdogs/p/DNjMSt1JtwU/" },
+  { img: "https://scontent-lga3-2.cdninstagram.com/v/t51.82787-15/631462758_17975402159993827_2759700604794333652_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&_nc_cat=105&ig_cache_key=MzgzMTg2OTI3NTY3ODg2MzM4OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkyMC5zZHIuQzMifQ%3D%3D&_nc_ohc=jmWdNU24mb4Q7kNvwHYxwi9&_nc_oc=AdpIhJVAaBcdYq6fTzaDk8N-del-HmDdSQ8wdXikp3idRwbcXUB_fQHgpuqax85jMJ8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-lga3-2.cdninstagram.com&_nc_gid=yTrx18gjA1gyI_j2bobZyA&_nc_ss=7a32e&oh=00_AfykIdnTUuJgpMWsWUbF0f5j-ah6vS2-B-QP8c_NmjRtAg&oe=69C8DCD3", url: "https://www.instagram.com/clairelikesdogs/p/DUtiZ6rEo8P/" },
+  { img: gallery6, url: "https://www.instagram.com/clairelikesdogs/p/DUjGq51kibV/" },
 ];
 
 import { useRef } from "react";
@@ -141,7 +141,7 @@ const Index = () => {
                 <img src={item.img} alt={`Happy dog ${i + 1}`} loading="lazy" className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500" />
                 <div className="absolute inset-0 bg-white/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center gap-2">
                   <Instagram className="h-8 w-8 text-foreground" />
-                  <span className="text-sm font-medium text-foreground">@bigbabydimey</span>
+                  <span className="text-sm font-medium text-foreground">@clairelikesdogs</span>
                 </div>
               </a>
             </motion.div>
