@@ -12,7 +12,7 @@ const Footer = () => (
           <Link to="/" className="hover:text-primary transition-colors">Home</Link>
           <Link to="/about" className="hover:text-primary transition-colors">About</Link>
           <Link to="/fosters/process" className="hover:text-primary transition-colors">Process</Link>
-          <a href="https://claireha.pixieset.com/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Portfolio</a>
+          <a href="https://photos.haclaire.com/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Portfolio</a>
           <Link to="/fosters/book" className="hover:text-primary transition-colors">Book</Link>
         </div>
       </div>

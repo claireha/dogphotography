@@ -149,7 +149,7 @@ const Index = () => {
         </div>
         <div className="text-center mt-8">
           <Button asChild variant="outline" className="rounded-full">
-            <a href="https://claireha.pixieset.com/" target="_blank" rel="noopener noreferrer">View full portfolio →</a>
+            <a href="https://photos.haclaire.com/" target="_blank" rel="noopener noreferrer">View full portfolio →</a>
           </Button>
         </div>
       </div>

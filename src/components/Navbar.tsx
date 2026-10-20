@@ -8,7 +8,7 @@ const mainLinks: { to: string; label: string; external?: boolean }[] = [
   { to: "/about", label: "About" },
 ];
 
-const portfolioLink = { to: "https://claireha.pixieset.com/", label: "Portfolio", external: true };
+const portfolioLink = { to: "https://photos.haclaire.com/", label: "Portfolio", external: true };
 
 const fosterLinks: { to: string; label: string }[] = [
   { to: "/fosters/process", label: "The Process" },
